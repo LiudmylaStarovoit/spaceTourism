@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/style.min.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <main class="crew">
+    <div class="container">
+      <div class="header">
+        <div class="header__logo"><img src="/starter-code/assets/shared/logo.svg" alt="logo"></div>
+        <nav class="header__nav">
+          <div class="header__items">
+            <a href="index.html" class="header__item">
+              <div class="number"> 00</div>
+              <div class="title">HOME</div>
+            </a>
+            <a href="destination.html" class="header__item">
+              <div class="number"> 01</div>
+              <div class="title">DESTINATION</div>
+            </a>
+            <a href="crew.html" class="header__item">
+              <div class="number"> 02</div>
+              <div class="title">CREW</div>
+            </a>
+            <a href="technology.html" class="header__item">
+              <div class="number"> 03</div>
+              <div class="title">TECHNOLOGY</div>
+            </a>
+            <div class="header__divider"></div>
+            <div class="header__active"></div>
+            <div class="active_divider active_divider-home divider-hide"></div>
+            <div class="active_divider active_divider-destination divider-hide"></div>
+            <div class="active_divider active_divider-crew divider-hide"></div>
+            <div class="active_divider active_divider-technology divider-hide"></div>
+          </div>
+        </nav>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="subtitle">
+        <div class="subtitle__number">02</div>
+        <div class="subtitle__text">Meet your crew</div>
+      </div>
+      <section class="info">
+        <div class="descrp">
+          <div class="divider"></div>
+          <div class="descrp__wrap">
+          <h2 class="descrp__subtitle">Commander </h2>
+          <h1 class="descrp__title">Douglas Hurley</h1>
+          <p class="descrp__text">Douglas Gerald Hurley is an American engineer, former Marine Corps pilot and former NASA astronaut. He launched into space for the third time as commander of Crew Dragon Demo-2.</p>
+          </div>
+          <div class="point">
+            <div class="point__item point-active commander"></div>
+            <div class="point__item specialist"></div>
+            <div class="point__item pilot"></div>
+            <div class="point__item engineer"></div>
+          </div>
+        </div>
+        <div class="info__photo">
+          <img class="image" src="./assets/crew/image-douglas-hurley.png" alt="photo">
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="/js/crew.js"></script>
+  <script src="/js/script.js"></script>
+</body>
+</html>

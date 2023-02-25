@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="/css/style.min.css">
+  <title>Frontend Mentor | Space tourism website</title>
+</head>
+<body>
+  <main class="destination">
+    <div class="container">
+      <div class="header">
+        <div class="header__logo"><img src="/starter-code/assets/shared/logo.svg" alt="logo"></div>
+        <nav class="header__nav">
+          <div class="header__items">
+            <a href="index.html" class="header__item">
+              <div class="number"> 00</div>
+              <div class="title">HOME</div>
+            </a>
+            <a href="destination.html" class="header__item">
+              <div class="number"> 01</div>
+              <div class="title">DESTINATION</div>
+            </a>
+            <a href="crew.html" class="header__item">
+              <div class="number"> 02</div>
+              <div class="title">CREW</div>
+            </a>
+            <a href="technology.html" class="header__item">
+              <div class="number"> 03</div>
+              <div class="title">TECHNOLOGY</div>
+            </a>
+            <div class="header__divider"></div>
+            <div class="header__active"></div>
+            <div class="active_divider active_divider-home divider-hide"></div>
+            <div class="active_divider active_divider-destination divider-hide"></div>
+            <div class="active_divider active_divider-crew divider-hide"></div>
+            <div class="active_divider active_divider-technology divider-hide"></div>
+          </div>
+        </nav>
+      </div>
+      <div class="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="subtitle">
+        <div class="subtitle__number">01</div>
+        <div class="subtitle__text">Pick your destination</div>
+      </div>
+      <section class="all">
+        <div class="all__img"> <img class="image" src="./assets/destination/image-moon.png" alt="moon"> </div>
+        <div class="descr">
+          <nav class="nav">
+              <li class="nav__item moon" style="color:#ffffff">MOON</li>
+              <li class="nav__item mars">MARS</li>
+              <li class="nav__item europa">EUROPA</li>
+              <li class="nav__item titan">TITAN</li>
+              <div class="active_item active_item-moon item-hide"></div>
+              <div class="active_item active_item-mars item-hide"></div>
+              <div class="active_item active_item-europa item-hide"></div>
+              <div class="active_item active_item-titan item-hide"></div>
+              <div class="active_items active_items-moon items-show"></div>
+              <div class="active_items active_items-mars"></div>
+              <div class="active_items active_items-europa"></div>
+              <div class="active_items active_items-titan"></div>
+          </nav>
+          <h2 class="descr__title">MOON</h2>
+          <p class="descr__text">See our planet as you’ve never seen it before. A perfect relaxing trip away to help regain perspective and come back refreshed. While you’re there, take in some history by visiting the Luna 2 and Apollo 11 landing sites.</p>
+          <div class="descr__divider"></div>
+          <div class="info">
+            <div class="info__items">
+              <div class="info__title">AVG. DISTANCE</div>
+              <div class="info__item distance">384,400 km</div>
+            </div>
+            <div class="info__items">
+              <div class="info__title">Est. travel time</div>
+              <div class="info__item travel">3 days</div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+  <script src="/js/script.js"></script>
+</body>
+</html>
