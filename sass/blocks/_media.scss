@@ -722,6 +722,7 @@
         }  
     }
     .destination {
+        background: url('../image/destination/background-destination-mobile.jpg') center center/cover no-repeat;
         .container {
             .all {
                 padding: 32px 0 58px 0;
@@ -776,6 +777,9 @@
             .info {
                 flex-direction: column-reverse;
                 padding: 40px 0 70px 0;
+                &__divider {
+                    display: none;
+                }
                 &__photo {
                     img {
                         width: 56%;
@@ -805,7 +809,8 @@
                         left: 0;
                         width: 100%;
                         height: 1px;
-                        background: #383B4B;
+                        background: #FFFFFF;
+                        opacity: 0.5;
                     }
                     .point {
                         margin-top: 32px;
